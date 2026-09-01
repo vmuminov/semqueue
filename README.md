@@ -1,5 +1,10 @@
 # semqueue
 
+[![PyPI version](https://img.shields.io/pypi/v/semqueue)](https://pypi.org/project/semqueue/)
+[![Python versions](https://img.shields.io/pypi/pyversions/semqueue)](https://pypi.org/project/semqueue/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Tests](https://img.shields.io/github/actions/workflow/status/vmuminov/semqueue/tests.yml?label=tests)](https://github.com/vmuminov/semqueue/actions)
+
 Queues that bound **in-flight** items (waiting + being processed), not just waiting items
 
 - `SyncQueue` - drop-in replacement for `queue.Queue`
