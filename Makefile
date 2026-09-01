@@ -1,5 +1,5 @@
-.PHONY: format verify test
-.SILENT: format verify test
+.PHONY: format verify test validate
+.SILENT: format verify test validate
 
 PY      := uv run
 RUFF    := $(PY) ruff
@@ -17,3 +17,5 @@ verify:
 
 test:
 	$(PYTEST)
+
+validate: verify test

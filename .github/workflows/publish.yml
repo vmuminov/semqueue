@@ -22,7 +22,7 @@ jobs:
         run: uv sync --all-groups
 
       - name: Run verification suite
-        run: make test
+        run: make validate
 
   publish:
     needs: test
